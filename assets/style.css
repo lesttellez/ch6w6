@@ -5,7 +5,7 @@
 }
 
 body {
-    background:url('https://www.bollyinside.com/articles/wp-content/uploads/sites/4/2022/04/Top-10-Wallpaper-Apps-For-Mac-in-2022-Paid-and-669x350.jpg');
+    background:url('https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -24,6 +24,10 @@ body {
     flex-wrap: wrap;
 }
 
+.date-container {
+    font-family: 60;
+}
+
 .date-container .time {
     font-size: 60px;
 }
@@ -37,22 +41,97 @@ body {
     font-size: 80px;
 }
 
+.city-container {
+    text-align: center;
+}
+
 .city-container .time-zone {
     font-size: 50px;
     font-weight: 50;
 }
 
-.container .more {
+.city-container .country {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.current-info .more {
     display: flex;
     flex-direction: column;
-    background: skyblue;
+    background: rgba(214, 214, 255, 0.423);
     padding: 30px;
     border-radius: 20px;
     margin: 20px;
+    border: 5px solid lightskyblue;
+    font-size: 25px;
 }
 
 .current-info .more .weather-item {
     display:flex;
     justify-content: space-between;
 }
+
+.future-forecast {
+    background: rgba(214, 214, 255, 0.423);
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.future-forecast .weather-forcast {
+    display: flex;
+}
+
+.future-forecast .today {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 20px;
+    background: rgba(0,0,0,0.2);
+}
+
+.future-forecast .today .day {
+    padding: 10px;
+    background: darkolivegreen;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.future-forecast .weather-forcast {
+    display: flex;
+}
+
+.future-forecast .today .temp {
+    display: flex;
+    padding: 20px;
+}
+
+.weather-forecast .weather-forecast-item{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2)
+}
+
+.weather-forecast .weather-forecast-item .day{
+    padding: 5px 15px;
+    background: #3C3C44;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.weather-forecast .weather-forecast-item .temp{
+    font-weight: 100;
+    font-size: 12px;
+}
+
 
