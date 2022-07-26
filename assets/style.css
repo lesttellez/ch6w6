@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:url('https://www.bollyinside.com/articles/wp-content/uploads/sites/4/2022/04/Top-10-Wallpaper-Apps-For-Mac-in-2022-Paid-and-669x350.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height:100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    padding: 30px 30px;
+    color: black;
+}
+
+.current-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.date-container .time {
+    font-size: 60px;
+}
+
+.date-container #am-pm {
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.date-container .date {
+    font-size: 80px;
+}
+
+.city-container .time-zone {
+    font-size: 50px;
+    font-weight: 50;
+}
+
+.container .more {
+    display: flex;
+    flex-direction: column;
+    background: skyblue;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.current-info .more .weather-item {
+    display:flex;
+    justify-content: space-between;
+}
+
