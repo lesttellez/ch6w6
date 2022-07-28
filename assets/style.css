@@ -7,28 +7,12 @@ body {
     height:80vh;
 }
 
-
-  
 .forecast {
     font-size: 0.9em;
 }
-  
-.topnav {
-    color: #e9e9e9;
-    text-align: center;
-    font-size: 17px;
-    background-color: #3f3f3f;
-    padding: 14px 16px;
-}
-  
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #e9e9e9;
-    color: #000000;
-    text-align: center;
+
+h4 {
+    color: whitesmoke;
 }
   
 .city-name {
@@ -38,9 +22,13 @@ body {
   
 p.current,
 .city-name {
-    color: #000000;
+    color: white;
 }
   
 p {
     color: white;
+}
+
+#forecast{
+    background-color: #403030c6;
 }
