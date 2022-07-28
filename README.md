@@ -27,3 +27,5 @@ the application is a weather dashboard. it utilizies 3rd party APIs from Openwea
 
 
 ![weather](./assets/images/weather.png)
+
+https://lesttellez.github.io/ch6w6/
